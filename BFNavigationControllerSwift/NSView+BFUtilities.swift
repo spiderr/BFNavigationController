@@ -23,7 +23,7 @@ extension NSView {
         var offset = NSPoint.zero
 
         // Don't draw anything if zero size
-        if NSEqualSizes(NSSize.zero, size) {
+        if size == NSSize.zero {
             return nil
         }
 
